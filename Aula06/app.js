@@ -29,3 +29,27 @@ function logar(){
     login(lg,sn)
 }
  login("Bolo","1234")
+
+ function login(){
+
+    let login = "Bolo"
+    let senha = "1234"
+
+
+
+    let bancologin1 = "Bolo"
+    let bancosenha1 = "1234"
+
+    let bancologin2 = "Bolo"
+    let bancosenha2 = "1234"
+
+    let bancologin3 = "Bolo"
+    let bancosenha3 = "1234"
+
+    const vetorlg = [bancologin1,bancologin2,bancologin3]
+    const vetorsn = [bancosenha1,bancosenha2,bancosenha3]
+
+    if(login == vetorlg[0] && senha == vetorsn[0]){
+        
+    }
+ }
