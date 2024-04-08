@@ -14,9 +14,14 @@
 
     const usuarios = dados()
 
+    //  i = 0
+    // i = i + i (i++)
+    // i < usuarios,length
+
     for(let i=0;i<usuarios.length;i++){
     if(user == usuarios[i].login && password == usuarios[i].senha){
         console.log("Bem-vindo")
+        alert("Logado")
         break
     } 
 }
@@ -24,32 +29,40 @@
 
 function logar(){
     let lg = document.getElementById("login").value
-    let sn = document.getElementById("Senha").value
+    let sn = document.getElementById("senha").value
 
     login(lg,sn)
 }
- login("Bolo","1234")
-
- function login(){
-
-    let login = "Bolo"
-    let senha = "1234"
 
 
 
-    let bancologin1 = "Bolo"
-    let bancosenha1 = "1234"
 
-    let bancologin2 = "Bolo"
-    let bancosenha2 = "1234"
 
-    let bancologin3 = "Bolo"
-    let bancosenha3 = "1234"
 
-    const vetorlg = [bancologin1,bancologin2,bancologin3]
-    const vetorsn = [bancosenha1,bancosenha2,bancosenha3]
 
-    if(login == vetorlg[0] && senha == vetorsn[0]){
+
+
+
+ //function login(){
+
+    //let login = "Bolo"
+    //let senha = "1234"
+
+
+
+    //let bancologin1 = "Bolo"
+    //let bancosenha1 = "1234"
+
+    //let bancologin2 = "Bolo"
+    //let bancosenha2 = "1234"
+
+    //let bancologin3 = "Bolo"
+    //let bancosenha3 = "1234"
+
+    //const vetorlg = [bancologin1,bancologin2,bancologin3]
+    //const vetorsn = [bancosenha1,bancosenha2,bancosenha3]
+
+    //if(login == vetorlg[0] && senha == vetorsn[0]){
         
-    }
- }
+    //}
+ //}
